@@ -1,0 +1,24 @@
+# Tasks
+- [ ] add github models docs
+- [ ] Ollama: test Phi3.5 vs Mistral:v0.2
+
+- [ ] test AISearch no proxy
+  * [ ] update index search result screenshot
+
+- [ ] update trainer infra
+  * [ ] vars
+
+## For later
+- [ ] Add troubleshooting for npm run dev backend if it fails (restart) timeout (node-qdrant)
+  * try to reproduce!
+
+- [ ] add docker and troubleshooting section (full rebuild container) / codespaces
+- [ ] add npm i troubleshooting section (npm install) / codespaces
+
+- [ ] improve frontend client
+  * [ ] add retry button in chat
+
+## Trainer infra
+- [ ] add event key to restrict access
+
+https://aka.ms/ws/nantes2024
