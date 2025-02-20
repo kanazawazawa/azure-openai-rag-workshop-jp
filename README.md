@@ -30,13 +30,13 @@ https://github.com/Azure-Samples/azure-openai-rag-workshop
 
 > [!IMPORTANT]  
 > フルレングスワークショップ日本語版はこちら  
-<a href="https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop1-4.md" target="_blank">前提条件、はじめに、準備</a>  
-<a href="https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop5.md" target="_blank">プロジェクトの概要</a>  
-<a href="https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop6.md" target="_blank">Azure のセットアップ</a>  
-<a href="https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop7-8.md" target="_blank">ベクターデータベース、データの取り込み</a>  
-<a href="https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop9.md" target="_blank">チャット API</a>  
-<a href="https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop10-12.md" target="_blank">Dockerfile を作成する、チャットウェブサイト、Azure へのデプロイ</a>  
-<a href="https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop13-14.md" target="_blank">オプション、結論</a>  
+[1.前提条件、はじめに、準備](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop1-4.md)  
+[2.プロジェクトの概要](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop5.md)  
+[3.Azure のセットアップ](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop6.md)  
+[4.ベクターデータベース、データの取り込み](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop7-8.md)  
+[5.チャット API](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop9.md)  
+[6.Dockerfile を作成する、チャットウェブサイト、Azure へのデプロイ](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop10-12.md)  
+[7.オプション、結論](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop13-14.md)  
 
 
 
