@@ -139,7 +139,8 @@ RAGプロセスは以下のステップで構成されます：
 
 ### プロジェクトの作成
 
-1. [このGitHubリポジトリ](https://github.com/Azure-Samples/azure-openai-rag-workshop)を開きます。
+1. [このGitHubリポジトリ](https://github.com/Azure-Samples/azure-openai-rag-workshop)を開きます。  
+※[日本語簡易版はこちらのGitHubリポジトリ](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/)を開きます。  
 2. **Fork**ボタンをクリックし、**Create fork**をクリックして、プロジェクトのコピーを自分のGitHubアカウントに作成します。
 
 ![GitHubのForkボタンのスクリーンショット](./assets/fork-project.png)

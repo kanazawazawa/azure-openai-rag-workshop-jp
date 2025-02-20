@@ -255,3 +255,5 @@ azd down --purge
 - このワークショップの紹介プレゼンテーション: [スライド](https://azure-samples.github.io/azure-openai-rag-workshop/)
 - ハイブリッド検索とセマンティックランキングによるベクトル検索パフォーマンスの向上: [ブログ記事](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/azure-ai-search-outperforming-vector-search-with-hybrid/ba-p/3929167)
 
+
+- [過去実施参考](https://github.com/kanazawazawa/azure-openai-rag-workshop/commit/d663b427f714c5d1d745f958eb0dee3e130c0e40)
