@@ -29,7 +29,7 @@ https://github.com/Azure-Samples/azure-openai-rag-workshop
 
 
 > [!IMPORTANT]  
-> フルレングスワークショップ日本語版はこちら  
+> フルレングスワークショップ日本語版はこちら（2025年2月時点の生成AIによる翻訳のため、最新の[オリジナルのドキュメント](https://aka.ms/ws/openai-rag)を合わせてご確認ください）  
 [1.前提条件、はじめに、準備](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop1-4.md)  
 [2.プロジェクトの概要](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop5.md)  
 [3.Azure のセットアップ](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop6.md)  
