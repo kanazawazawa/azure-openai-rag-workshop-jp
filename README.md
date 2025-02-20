@@ -27,6 +27,19 @@ https://github.com/Azure-Samples/azure-openai-rag-workshop
 > [!IMPORTANT]
 > 👉 **このサンプルの構築方法と実行およびデプロイ方法を学ぶには、[フルレングスワークショップ](https://aka.ms/ws/openai-rag)に従ってください。**
 
+
+> [!IMPORTANT]  
+> フルレングスワークショップ日本語版はこちら  
+[前提条件、はじめに、準備](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop1-4.md)  
+[プロジェクトの概要](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop5.md)  
+[Azure のセットアップ](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop6.md)  
+[ベクターデータベース、データの取り込み](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop7-8.md)  
+[チャット API](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop9.md)  
+[Dockerfile を作成する、チャットウェブサイト、Azure へのデプロイ](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop10-12.md)  
+[オプション、結論](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop13-14.md)  
+
+
+
 ## 概要
 
 このサンプルは、[Fastify](https://fastify.dev)を使用して、[OpenAI SDK](https://platform.openai.com/docs/libraries/)と[LangChain](https://js.langchain.com/)を活用したチャットボットを構築する[Node.js](https://nodejs.org/)サービスを作成します。このチャットボットは、ドキュメントのコーパスに基づいて質問に回答します。APIと対話するためのウェブサイトも含まれています。
