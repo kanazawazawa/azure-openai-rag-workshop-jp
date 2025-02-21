@@ -97,6 +97,12 @@ perl -pi -e 's/\"//g' .env
 ```sh
 azd deploy ingestion
 ```
+```bash
+chmod +x ./scripts/ingest-data.sh
+```
+```bash
+./scripts/ingest-data.sh
+```
 
 ### Azureサービスの紹介
 
