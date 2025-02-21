@@ -53,6 +53,9 @@ export const defaultOptions: ChatComponentOptions = {
     'How to search and book rentals?',
     'What is the refund policy?',
     'How to contact a representative?',
+    '物件を検索して予約する方法は？',
+    '返金ポリシーは何ですか？',
+    '担当者に連絡する方法は？',
   ],
   messages: [],
   strings: {
