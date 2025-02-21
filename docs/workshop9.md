@@ -238,7 +238,7 @@ for (const historyMessage of messages.slice(0, -1).reverse()) {
   if (messageBuilder.tokens > this.tokenLimit) {
     messageBuilder.popMessage();
     break;
-  };
+  }
   messageBuilder.appendMessage(historyMessage.role, historyMessage.content);
 }
 ```

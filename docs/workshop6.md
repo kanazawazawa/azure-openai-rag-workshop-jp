@@ -41,7 +41,7 @@ azd auth login --use-device-code
 
 #### 新しい環境を作成
 
-次に、新しい環境を設定します。Azure Developer CLIは、設定とリソースを管理するために環境を使用します：
+次に、新しい環境を設定します。Azure Developer CLIは、設定とリソースを管理するために環境を使用します（リソースグループ名に使用されるため、同サブスクリプションで複数人が実施する場合、一意になるよう修正します）：
 
 ```sh
 azd env new openai-rag-workshop

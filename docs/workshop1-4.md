@@ -228,5 +228,12 @@ bash --version
 ./scripts/setup-template.sh aisearch
 ```
 
+上記実行後、Permission denied のエラーが発生する場合：
+```bash
+chmod +x ./scripts/setup-template.sh
+```
+```bash
+./scripts/setup-template.sh aisearch
+```
 
 ---
