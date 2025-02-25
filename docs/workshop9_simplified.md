@@ -136,8 +136,9 @@ RAGパターンの実装を開始する時が来ました！最初のステッ�
 
 前のプロンプトでは、ソース内容を追加しなかったことに注意してください。これは、モデルが長いシステムメッセージをうまく処理できないためです。代わりに、ソースを最新のユーザーメッセージに注入します。
 
-完了の結果は `completion.content` プロパティにあります。また、検索ドキュメントの結果を含む `data_points` と `thoughts` プロパティを `context` オブジェクトに追加し、ウェブサイトがデバッグ情報を表示できるようにします:
+完了の結果は `completion.content` プロパティにあります。また、検索ドキュメントの結果を含む `data_points` と `thoughts` プロパティを `context` オブジェクトに追加し、ウェブサイトがデバッグ情報を表示できるようにします:  
 
+`// TODO: implement Retrieval Augmented Generation (RAG) here` の下に記述  
 ```ts
 // 最後のメッセージの内容（質問）を取得
 const query = messages[messages.length - 1].content;

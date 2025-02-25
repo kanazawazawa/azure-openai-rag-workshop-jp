@@ -97,7 +97,11 @@ const response = await fetch(`${apiUrl}/chat`, {
 プロジェクトのルートからこのコマンドを実行して、アプリケーションをビルドしてデプロイします（このコマンドはプロジェクトルートにある`azure.yaml`ファイルにリストされているすべてのサービスをデプロイします）:
 
 ```bash
-azd deploy
+azd deploy backend
+```
+
+```bash
+azd deploy frontend
 ```
 
 このプロセスには数分かかる場合があります。完了すると、コマンドの出力にデプロイされたフロントエンドアプリケーションのURLが表示されます。

@@ -37,6 +37,12 @@
 azd auth login --use-device-code
 ```
 
+複数のディレクトリに属していて、エラーが発生した場合は、tenant-id に利用される Domain 名を指定し再度実行してください。
+
+```sh
+azd auth login --tenant-id <xxxxxxx>.onmicrosoft.com --use-device-code 
+```
+
 このコマンドは、ブラウザウィンドウに入力する*デバイスコード*を提供します。プロンプトに従って、ログインが成功するまで進めてください。
 
 #### 新しい環境を作成
