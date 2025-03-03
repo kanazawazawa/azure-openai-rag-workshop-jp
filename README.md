@@ -25,6 +25,9 @@ https://github.com/Azure-Samples/azure-openai-rag-workshop
 このサンプルは、LangChain.jsとOpenAI言語モデルを使用して、検索強化生成（RAG）を用いたAIチャット体験を構築する方法を示しています。アプリケーションは[Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/overview)と[Azure Container Apps](https://learn.microsoft.com/azure/container-apps/overview)にホストされ、ベクトルデータベースとして[Azure AI Search](https://learn.microsoft.com/azure/search/search-what-is-azure-search)を使用しています。より複雑なAIアプリケーションを構築するための出発点として使用できます。
 
 > [!IMPORTANT]
+> 👉 **短時間でデプロイするためには、[ワークショップ（ショート）](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/blob/main/docs/workshop-quickstart.md)をご利用ください。**
+
+> [!IMPORTANT]
 > 👉 **このサンプルの構築方法と実行およびデプロイ方法を学ぶには、[フルレングスワークショップ](https://aka.ms/ws/openai-rag)に従ってください。**
 
 
