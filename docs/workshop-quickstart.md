@@ -1,5 +1,34 @@
 # ワークショップ デプロイ最短ルート
 
+## 前提条件
+
+<div data-hidden="$$proxy$$">
+
+| | |
+|----------------------|------------------------------------------------------|
+| GitHubアカウント       | [無料のGitHubアカウントを取得](https://github.com/join) |
+| GitHub Codespaces     | [無料のCodespaces](https://github.co.jp/features/codespaces) |
+| Azureアカウント        | [無料のAzureアカウントを取得](https://azure.microsoft.com/free) |
+| Azure OpenAI APIへのアクセス | [Azure OpenAIへのアクセスをリクエスト](https://aka.ms/oaiapply) |
+| Webブラウザ        | [Microsoft Edgeを取得](https://www.microsoft.com/edge) |
+</div>
+
+
+
+[GitHub Codespaces](https://github.com/features/codespaces)を使用して、このワークショップのために準備されたインスタント開発環境を利用します。
+
+
+<div class="info" data-title="note" data-hidden="$$proxy$$">
+
+> Azureアカウントには、`Microsoft.Authorization/roleAssignments/write`権限が必要です。例えば、[ロールベースアクセス制御管理者](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#role-based-access-control-administrator-preview)、[ユーザーアクセス管理者](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#user-access-administrator)、または[所有者](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#owner)などです。また、Azureリソースのデプロイを許可するために、サブスクリプションレベルで`Microsoft.Resources/deployments/write`権限も必要です。
+>
+> 個人のAzureサブスクリプションを使用している場合は問題ありません。会社から提供されたAzureサブスクリプションを使用している場合は、必要な権限があることを確認するためにIT部門に連絡する必要があるかもしれません。  
+動作確認済み権限：
+</div>
+
+---
+
+
 ## 準備
 1. [このGitHubリポジトリ](https://github.com/kanazawazawa/azure-openai-rag-workshop-jp/)を開きます。  
   
@@ -48,9 +77,9 @@ azd auth login --tenant-id <xxxxxxx>.onmicrosoft.com --use-device-code
 ```sh
 azd env new openai-rag-workshop-<yourname>
 ```
-```sh
-azd env set AZURE_OPENAI_API_ENDPOINT $$proxy$$
-```
+
+
+
 #### Azureインフラストラクチャのデプロイ
 
 次に、ワークショップのAzureインフラストラクチャをデプロイします。次のコマンドを実行します：
