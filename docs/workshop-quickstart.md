@@ -20,10 +20,11 @@
 
 <div class="info" data-title="note" data-hidden="$$proxy$$">
 
-> Azureアカウントには、`Microsoft.Authorization/roleAssignments/write`権限が必要です。例えば、[ロールベースアクセス制御管理者](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#role-based-access-control-administrator-preview)、[ユーザーアクセス管理者](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#user-access-administrator)、または[所有者](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#owner)などです。また、Azureリソースのデプロイを許可するために、サブスクリプションレベルで`Microsoft.Resources/deployments/write`権限も必要です。
+> Azureアカウントには、`Microsoft.Authorization/roleAssignments/write`権限が必要です。例えば、[ロールベースアクセス制御管理者(Role Based Access Control Administrator)](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#role-based-access-control-administrator-preview)、[ユーザーアクセス管理者(User Access Administrator)](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#user-access-administrator)、または[所有者(Owner)](https://learn.microsoft.com/azure/role-based-access-control/built-in-roles#owner)などです。また、Azureリソースのデプロイを許可するために、サブスクリプションレベルで`Microsoft.Resources/deployments/write`権限も必要です。
 >
 > 個人のAzureサブスクリプションを使用している場合は問題ありません。会社から提供されたAzureサブスクリプションを使用している場合は、必要な権限があることを確認するためにIT部門に連絡する必要があるかもしれません。  
-動作確認済み権限：
+> 
+> ※動作確認済み権限：サブスクリプションレベルで共同作成者とユーザーアクセス管理者ロールを付与
 </div>
 
 ---
@@ -116,7 +117,7 @@ chmod +x ./scripts/ingest-data.sh
 ## チャット API
 
 ### SDKクライアントの初期化
-
+ファイル `src/backend/src/plugins/chat.ts` を開きます。  
 `// TODO: initialize clients here` を実際のクライアント設定コードに置き換えます。
 
 #### Azure資格情報の管理, LangChain.jsクライアント
