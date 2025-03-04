@@ -309,25 +309,6 @@ CMD [ "npm", "start", "--workspace=backend" ]
 
 このセットアップにより、Dockerは最初にアプリをビルドするためのコンテナを作成し、その後、最初のコンテナからコンパイルされたアプリコードをコピーして最終的なDockerイメージを作成します。
 
-### Dockerイメージをビルドする
-
-Dockerイメージが正しくビルドされるかどうかをテストできます。
-`backend`フォルダーからこのコマンドを実行してイメージをビルドします:
-
-```bash
-npm run docker:build
-```
-
-ビルドが成功した場合は、次のセクションに進むことができます。エラーが発生した場合は、Dockerfileのセクションを見逃していないか、バックエンドコードが正しくコンパイルされているかを確認してください。
-
-その後、進捗を追跡するためにリポジトリに変更をコミットします。
-
-<div class="info" data-title="注意">
-
-> `npm run docker:run`コマンドでイメージを実行しようとすると、`@azure/identity` SDKがローカルコンテナで自動的に認証できないため、エラーが発生します。
-> これを修正する方法はいくつかありますが、最も簡単なのは[サービスプリンシパル](https://learn.microsoft.com/entra/identity-platform/howto-create-service-principal-portal)を作成し、必要な権限を割り当て、環境変数をコンテナに渡すことです。しかし、これはこのワークショップの範囲を超えるため、このステップはスキップします。
-
-</div>
 
 ## チャットウェブサイト
 
@@ -388,3 +369,19 @@ azd deploy frontend
 
 </div>
 
+### Azureリソースのクリーンアップ
+
+<div class="important" data-title="important">
+
+> ワークショップが終了したら、不要なコストを避けるためにAzureリソースを削除することを忘れないでください！
+
+</div>
+
+Azureリソースを削除するには、次のコマンドを実行できます：
+
+```bash
+azd down --purge
+```
+
+作成したリソースグループを Azure Portal 上から直接削除していただいてもかまいません。
+Codespece も不要な場合は、ブラウザ上から削除してください。
