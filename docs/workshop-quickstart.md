@@ -122,7 +122,8 @@ chmod +x ./scripts/ingest-data.sh
 
 #### Azure資格情報の管理, LangChain.jsクライアント
 
-資格情報の取得、LangChain.js クライアントの作成、GPTモデルに送信される基本プロンプトの作成  
+資格情報の取得、LangChain.js クライアントの作成、GPTモデルに送信される基本プロンプトの作成    
+ファイル `src/backend/src/plugins/chat.ts` の冒頭に下記を追加します。
 ```ts
 import { DefaultAzureCredential, getBearerTokenProvider } from '@azure/identity';
 import { AzureChatOpenAI, AzureOpenAIEmbeddings } from '@langchain/openai';
@@ -143,8 +144,9 @@ const SYSTEM_MESSAGE_PROMPT = `アシスタントは、Consto Real Estate社の�
 */
 ```
 
-
+コメント `// TODO: initialize clients here` を確認します。  
 次に、`const config = fastify.config;` 行の下に次のコードを追加します:
+
 
 ```ts
 // 現在のユーザーIDを使用して認証します。
