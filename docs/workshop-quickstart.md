@@ -5,11 +5,11 @@
   
 2. **Fork**ボタンをクリックし、**Create fork**をクリックして、プロジェクトのコピーを自分のGitHubアカウントに作成します。
 
-![GitHubのForkボタンのスクリーンショット](./assets/fork-project.png)
+![GitHubのForkボタンのスクリーンショット](./assets/fork-project-jp.png)
 
 フォークが作成されたら、**Code**ボタンを選択し、**Codespaces**タブをクリックして**Create Codespaces on main**をクリックします。
 
-![GitHubのCodespaces作成のスクリーンショット](./assets/create-codespaces.png)
+![GitHubのCodespaces作成のスクリーンショット](./assets/create-codespaces-jp.png)
 
 
 
