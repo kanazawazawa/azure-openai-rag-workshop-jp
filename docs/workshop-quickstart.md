@@ -9,8 +9,8 @@
 | GitHubアカウント       | [無料のGitHubアカウントを取得](https://github.com/join) |
 | GitHub Codespaces     | [無料のCodespaces](https://github.co.jp/features/codespaces) |
 | Azureアカウント        | [無料のAzureアカウントを取得](https://azure.microsoft.com/free) |
-| Azure OpenAI APIへのアクセス | [Azure OpenAIへのアクセスをリクエスト](https://aka.ms/oaiapply) |
-| Webブラウザ        | [Microsoft Edgeを取得](https://www.microsoft.com/edge) |
+| Azure OpenAI APIへのアクセス | `gpt-4o-mini`モデルを使用します |
+| Webブラウザ        | [Microsoft Edgeを取得](https://www.microsoft.com/edge), その他ブラウザでも可 |
 </div>
 
 
@@ -24,7 +24,29 @@
 >
 > 個人のAzureサブスクリプションを使用している場合は問題ありません。会社から提供されたAzureサブスクリプションを使用している場合は、必要な権限があることを確認するためにIT部門に連絡する必要があるかもしれません。  
 > 
-> ※動作確認済み権限：サブスクリプションレベルで共同作成者とユーザーアクセス管理者ロールを付与
+> ※動作確認済み権限：  
+> - サブスクリプションレベルで共同作成者とユーザーアクセス管理者ロールを付与  
+> - サブスクリプションレベルで所有者ロールを付与  
+
+※作成するAzureリソース。下記リソースを作成可能なサブスクリプションである必要があります。クォータ制限などにお気を付けください。  
+- リソースグループ
+- Azure OpenAI
+- Azure Container Apps 環境
+- Azure Container Apps
+- Azure Static Web Apps
+- Azure Container Registory
+- Azure Application Insights
+- Azure AI Search
+- Azure Log Analytics ワークスペース
+- Azure マネージドID
+- Azure ダッシュボード
+![Azureリソースのスクリーンショット](./assets/azureresources.png)  
+
+※リージョンは East US 2 を使用する予定です。
+
+※事前準備にご不安のある方は、以降の手順の`準備`を進めていただき、`azd provision` までエラーなく進めることができればワークショップは問題なく実行できる可能性が高いです。  エラーが発生する場合、よくある原因は、権限不足、もしくはAzureリソースの何れかがクォータ制限やpolicyなどでデプロイできない環境である可能性が高いです。  
+ワークショップ当日は45分間と限られているため、上記トラブルシュートが難しいことをご承知おきください。  
+事前に、`azd provision`まで進めた方は Azure のコストが発生するためご注意ください。当日同手順を実施するため、リソースグループごと削除していただいて構いません。  
 </div>
 
 ---
